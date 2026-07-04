@@ -109,8 +109,7 @@ productoMasVendido: (state): Producto | undefined => {
       this.guardar()
     },
 
-
-    finalizarCompra() {
+finalizarCompra() {
 
   this.carrito.forEach(item => {
 
@@ -133,5 +132,6 @@ productoMasVendido: (state): Producto | undefined => {
   this.guardar()
 
 }
+    
   }
 })
